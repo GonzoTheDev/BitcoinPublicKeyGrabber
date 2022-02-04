@@ -2,11 +2,11 @@ import requests
 import csv
 mylist = []
 
-with open('btc_base58.txt', newline='', encoding='utf-8') as f:
+with open('adresses.csv', newline='', encoding='utf-8') as f:
     for line in f:
         mylist.append(line.strip())
 
-myfile = open('addresses.csv', 'w')
+myfile = open('results.txt', 'w')
 
 for i in range(0,len(mylist)):
     address = mylist[i]
