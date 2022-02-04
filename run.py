@@ -6,7 +6,7 @@ with open('btc_base58.txt', newline='', encoding='utf-8') as f:
     for line in f:
         mylist.append(line.strip())
 
-myfile = open('pubkeys.txt', 'w')
+myfile = open('addresses.csv', 'w')
 
 for i in range(0,len(mylist)):
     address = mylist[i]
