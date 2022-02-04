@@ -2,7 +2,7 @@ import requests
 import csv
 mylist = []
 
-with open('adresses.csv', newline='', encoding='utf-8') as f:
+with open('addresses.csv', newline='', encoding='utf-8') as f:
     for line in f:
         mylist.append(line.strip())
 
