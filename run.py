@@ -17,5 +17,6 @@ for i in range(0,len(mylist)):
     else:
         myfile.write("%s\n" % f.text)
         print(f.text)
+        sleep(10)
 
 myfile.close()
