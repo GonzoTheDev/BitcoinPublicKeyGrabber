@@ -1,1 +1,0 @@
-Rotor-Cuda.exe -t 0 -g --gpui 0 --gpux 512,512 -m address --coin BTC -o winnings.txt -r 50000 --range 1FFFFFFFFFFFFFFFF:3FFFFFFFFFFFFFFFF 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
